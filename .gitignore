@@ -22,6 +22,8 @@ build/*
 *.exe
 tools/ido71/*
 tools/nOVL/*
+tools/lzkn64
+tools/ZAPD.out
 
 # Don't ignore any ".gitkeep" files
 !.gitkeep

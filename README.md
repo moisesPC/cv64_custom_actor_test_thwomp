@@ -12,11 +12,12 @@ This also contains various scripts that will inject all this data into an origin
 * [nOVL](https://github.com/Bsquo/nOVL/releases) (place `novl` in `tools/nOVL`)
 * `mips64-ld`
 * [ZAPD](https://github.com/NEstelami/ZAPD) (place `ZAPD.out` in `tools`)
+* [LZKN64](https://github.com/Fluvian/lzkn64) (place `lzkn64` in `tools`)
 * Python 3
 
 ### Build
 * Place a Castlevania (USA v1.0) ROM in the root of the project and rename it to `cv64_custom_actor_test.z64`. Then, run `make`
-* Said ROM should now be patched with the custom actor and the modded version of the Test Grid map with the 3 Thwomps.
+* Said ROM should now be patched with the custom actor and the modded version of the Test Grid map with the 3 Thwomps. If you can't run the ROM, you might need to update the patched ROM's CRC using [rn64crc](https://www.smwcentral.net/?p=section&a=details&id=8799).
 
 Enable the following GameShark code to warp to the Test Grid map:
 
