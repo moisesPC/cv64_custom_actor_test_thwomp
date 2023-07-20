@@ -1,0 +1,10 @@
+#ifndef COLLISION_H
+#define COLLISION_H
+
+#define COLL_TYPE_FLOOR     0x00010000
+#define COLL_TYPE_WALL      0x00020000
+#define COLL_TYPE_CEILING   0x00040000
+
+#define FOOTSTEP_SFX_STONE     0x00000001
+
+#endif
