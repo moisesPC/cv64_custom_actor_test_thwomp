@@ -92,7 +92,7 @@ void thwomp_fall(thwomp* self) {
     self->fallingSpeed += THWOMP_FALLING_ACCELERATION;
     self->model->position.y += self->fallingSpeed;
 
-    // When reaching the ground, stop, play a crashing sound, and make the Thwomp's collider damageable
+    // When reaching the ground, stop and play a crashing sound
     if (self->model->position.y < self->settings->position.y) {
         self->model->position.y = self->settings->position.y;
         self->fallingSpeed = 0.0f;

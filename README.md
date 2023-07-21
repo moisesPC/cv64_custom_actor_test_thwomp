@@ -6,6 +6,8 @@ The actor in question is a Thwomp from *Super Mario 64*.
 The repository includes the assets and code for the Thwomp custom actor, plus the complete assets for a modified version of the unused Test Grid map, which includes 3 instances of this actor defined.
 This also contains various scripts that will inject all this data into an original Castlevania (USA v1.0) ROM.
 
+* [Video](https://www.youtube.com/watch?v=QyYedT-Q1dI)
+
 ## Building (Ubuntu)
 ### Prerequisites
 * [IDO 7.1](https://github.com/decompals/ido-static-recomp/releases) (place `cc` and all the other files in `tools/ido71`)
@@ -16,7 +18,7 @@ This also contains various scripts that will inject all this data into an origin
 * Python 3
 
 ### Build
-* Place a Castlevania (USA v1.0) ROM in the root of the project and rename it to `cv64_custom_actor_test.z64`. Then, run `make`
+* Place a Castlevania (USA v1.0) ROM (`sha1: 989A28782ED6B0BC489A1BBBD7BEC355D8F2707E`) in the root of the project and rename it to `cv64_custom_actor_test.z64`. Then, run `make`
 * Said ROM should now be patched with the custom actor and the modded version of the Test Grid map with the 3 Thwomps. If you can't run the ROM, you might need to update the patched ROM's CRC using [rn64crc](https://www.smwcentral.net/?p=section&a=details&id=8799).
 
 Enable the following GameShark code to warp to the Test Grid map:
