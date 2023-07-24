@@ -30,7 +30,7 @@ void thwomp_init(thwomp* self) {
 
     // Initialize Thwomp's position
     // The position will be taken from the actor settings definition inside the map file
-    // THe position should be the ground's position, since the Thwomp will begin in the "rising up from ground" state
+    // The position should be the ground's position, since the Thwomp will begin in the "rising up from ground" state
     self->model->position.x = self->settings->position.x;
     self->model->position.y = self->settings->position.y;
     self->model->position.z = self->settings->position.z;
@@ -44,7 +44,7 @@ void thwomp_init(thwomp* self) {
 
     // Create the Thwomp's collider manager (atari_base), needed to make the collider work
     atari_base = ptr_atariBaseWork_create(self->model);
-    atari_base->field_0x0A |= 0x202;        // What this does is currently unknwon, but it's needed to make the collider damageable
+    atari_base->field_0x0A |= 0x202;        // What this does is currently unknown, but it's needed to make the collider damageable
     
     // Create the actual collider, attach it to the manager, and set its parameters
     self->collider = ptr_atariDataWork_create(self->model, 1);

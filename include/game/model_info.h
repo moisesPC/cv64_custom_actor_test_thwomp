@@ -11,7 +11,7 @@ typedef struct {
     struct model_info* sibling;
     struct model_info* next;
     struct model_info* parent;
-    color_union ambient_color;
+    color_union primitive_color;
     color_union environment_color;
     color_union blend_color;
     color_union fog_color;
@@ -34,7 +34,7 @@ typedef struct {
     angle field41_0x52;
     vec3f size;
     void* field45_0x64;          // map_actor_model*
-    f32 matrix[4][4];      // mf
+    f32 matrix[4][4];            // mf
 } model_info;
 
 extern model_info* modelInfo_createRootNode(u32, void*);

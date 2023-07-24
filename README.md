@@ -7,6 +7,7 @@ The repository includes the assets and code for the Thwomp custom actor, plus th
 This also contains various scripts that will inject all this data into an original Castlevania (USA v1.0) ROM.
 
 * [Video](https://www.youtube.com/watch?v=QyYedT-Q1dI)
+* [In-depth article (in Spanish)](https://www.canariasgoretro.org/2023/07/castlevania-64-creando-un-nuevo-enemigo.html)
 
 ## Building (Ubuntu)
 ### Prerequisites
